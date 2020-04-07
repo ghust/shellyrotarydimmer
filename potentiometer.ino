@@ -16,8 +16,8 @@ const char* mqtt_user = SECRET_MQTT_USER;
 const char* mqtt_password = SECRET_MQTT_PASSWD;
 
 
-const char* mqtt_chan = "SD18/potentiometer/val";
-const char* mqtt_debug = "SD18/Debug";
+const char* mqtt_chan = "shellies/shellydimmer-<deviceid>/light/0/set"; //change to your deviceid.
+const char* mqtt_debug = "somedebugchan";
 
 
 

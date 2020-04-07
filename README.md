@@ -2,6 +2,15 @@
 
 
 This is a quick solution I came up with for someone who wants a rotary dimmer to use with a **shelly dimmer** (or any MQTT-enabled dimmer).
+Sometimes you really want to "turn a button" to dim the lights.
+
+You can finish it however you want. The easiest would be to make a wooden base (I think 20mm thickness should be enough) and put in the electronics. Then attach a button (can again be made of wood, maybe 3-4cm thickness) to the top of the potentiometer.
+
+If you're handy and feel like making a really cool project, check out this "DIY Perks" video:
+
+https://www.youtube.com/watch?v=sJ5vhShdVjo
+
+This would give you a really, really cool dimmer to place on a table or windowsill.
 
 
 # Assumptions
@@ -15,6 +24,9 @@ To use/make this project I'm going to assume a few things.
 - Wemos D1 mini (easily found on [aliexpress](https://nl.aliexpress.com/item/32255861885.html?spm=a2g0s.9042311.0.0.27424c4d8fnswV))
 - A potentiometer (also easily found on [aliexpress](https://nl.aliexpress.com/item/4000102315830.html?spm=a2g0s.9042311.0.0.27424c4dRxdJf8)
 - Some wire
+- 5V power supply to your dimmer module (I usually repurpose an old phone charger)
+- Usb cable to power the Wemos D1 mini.
+
 
 # Creating our Dimmer
 
